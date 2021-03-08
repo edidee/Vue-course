@@ -12,4 +12,5 @@ const app = Vue.createApp({
             this.name = event.target.value
         }
     },
-})
+});
+app.mount('#assignment');
